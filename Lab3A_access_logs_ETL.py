@@ -7,7 +7,7 @@ from pyspark.sql.functions import split, regexp_extract, regexp_replace, col
 import sys
 
 ### Update the username
-username = "ENTER YOUR USERNAME HERE" ## example: wuser1
+username = "wuser6" ## example: wuser1
 
 #### Set DB Name and App Name accordingly
 db_name = username + "_retail"    ## example: retail_wuser1
